@@ -1,0 +1,444 @@
+.App {
+  background: linear-gradient(180deg, #FFFFFF 0%, #DDD9CD 100%);
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.header {
+  min-height: 112px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  background: #C0B9A914;
+}
+.header__logo {
+  height: max-content;
+}
+.header__content {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  height: min-content;
+  gap: 10px 30px;
+  flex-wrap: wrap;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header__menuContent {
+  font-family: "PT Mono";
+  font-size: 19.49px;
+  font-weight: 400;
+  line-height: 19.49px;
+  letter-spacing: -0.04em;
+  color: #DDD9CD;
+}
+.header__contactsContent {
+  font-family: "PT Mono";
+  font-size: 19.49px;
+  font-weight: 400;
+  line-height: 19.49px;
+  letter-spacing: -0.04em;
+  color: #DDD9CD;
+}
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.header__contentMobile {
+   display: none; 
+}
+.header__logoVk {
+  background-color: transparent;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.main {
+  display: grid;
+  height: calc(100vh - 112px);
+  height: 960px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #DDD9CD 100%);
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.main__develop {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 80px 20.5% 0 35%;
+  display: grid;
+  width: 633px;
+  height: 530px;
+}
+.main__developLogoLotos {
+  width: 77.5%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  opacity: 0.05;
+}
+.main__developLogoDevelop {
+  width: 64.6%;
+  height: 307px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: self-end;
+  margin: 35% 0 0 auto;
+}
+.main__developText {
+  width: 77.5%;
+  display: block;
+  align-self: center;
+  text-align: left;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 466px;
+  font-family: "PT Mono";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  color: #FF6322;
+}
+.main__developText1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: "PT Mono";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  color: #6D6D6D;
+  align-self: self-end;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.main__frontend {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 28.7vw;
+  height: 17.2vw;
+  margin-left: auto;
+  display: grid;
+}
+.main__frontendImg {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.main__frontendtext {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: "PT Mono";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #6D6D6D99;
+  margin: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.main__designer {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 29.1vw;
+  align-self: self-end;
+  display: grid;
+}
+.main__designerImg {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.main__designerText {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-family: "PT Mono";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #6D6D6D99;
+  margin: 20px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.main__time {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: self-end;
+  margin: 0 90px 90px auto;
+}
+.main__timeHeading {
+  font-family: "PT Mono";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #6D6D6D99;
+  margin: 0 0 10px 0;
+}
+.main__timeContent {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.main__timeContentPoint {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main__timeContentPointNumber {
+  font-family: "PT Mono";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  color: #DDD9CD;
+}
+.main__timeContentPointText {
+  font-family: "PT Mono";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: -0.04em;
+  color: #DDD9CD;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1440px) {
+  .main__designer {
+    width: 419px;
+    height: 431px;
+  }
+  .main__frontend {
+    width: 414px;
+    height: 248px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1160px) {
+  .main__develop {
+    margin: 70px auto 0;
+    width: 500px;
+    height: 420px;
+  }
+  .main__developText {
+    width: 60%;
+    margin-left: 50px;
+    font-size: 50px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 800px) {
+  .main {
+    height: 700px;
+  }
+  .main__develop {
+    margin: 60px auto 0 ;
+    width: 400px;
+    height: 320px;
+  }
+  .main__developText {
+    width: 60%;
+    margin-left: 50px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main__developLogoDevelop {
+    width: 64.6%;
+    height: 307px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: self-end;
+    margin: 25% 0 0 auto;
+  }
+  .main__frontendtext {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+  }
+  .main__designerText {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 10px;
+  }
+  .main__time {
+    margin: 0 50px 50px auto;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 660px) {
+  .header {
+    min-height: 92px;
+  }
+  .header__content {
+    display: none;
+  }
+  .header__contentMobile {
+    display: flex;
+    gap: 10px;
+  }
+
+/* --------------------------------------------------------------------------------------------------------------- */
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% + 92px);
+  }
+
+/* --------------------------------------------------------------------------------------------------------------- */
+  .main__develop {
+    order: 2;
+    margin: -30px auto 0;
+    display: grid;
+    width: 340px;
+    height: 365px;
+  }
+  .main__developLogoLotos {
+    width: 300px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .main__developLogoDevelop {
+    width: 300px;
+    height: 307px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: self-end;
+    margin: 100px 0 0 40px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  .main__developText {
+    width: 276px;
+    display: block;
+    align-self: self-start;
+    text-align: left;
+    margin: 0;
+    margin-top: 125px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main__developText1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 20px;
+    line-height: 20px;
+    align-self: self-start;
+    margin-top: 325px;
+  }
+  
+/* --------------------------------------------------------------------------------------------------------------- */
+  .main__frontend {
+    order: 1;
+    width: 220px;
+    height: 132px;
+    margin-left: auto;
+    display: grid;
+  }
+  .main__frontendImg {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .main__frontendtext {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+/* --------------------------------------------------------------------------------------------------------------- */
+  .main__designer {
+    order: 4;
+    width: 200px;
+    height: 206px;
+    align-self: self-start;
+  }
+  .main__designerImg {
+    width: 100%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .main__designerText {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 10px 17px;
+  }
+
+/* --------------------------------------------------------------------------------------------------------------- */
+  .main__time {
+    order: 3;
+    margin: 35px auto 25px;
+  }
+  .main__timeHeading {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .main__timeContent {
+    gap: 31px;
+  }
+  .main__timeContentPoint {
+    width: 60px;
+    height: 60px;
+  }
+  .main__timeContentPointNumber {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .main__timeContentPointText {
+    font-size: 11px;
+    line-height: 11px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 380px) {
+  .main__develop {
+    width: calc(95vw - 10px);
+    overflow: hidden;
+  }
+  .main__frontend {
+    overflow: hidden;
+  }
+  .main__designer {
+    overflow: hidden;
+  }
+  .main__timeHeading {
+    font-size: 18px;
+    line-height: 18px;
+    word-wrap: break-word;
+  }
+  .main__timeContent {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 240px) {
+  .main__frontend {
+    width: calc(95vw - 10px);
+  }
+  .main__designer {
+    width: calc(95vw - 10px);
+  }
+}
